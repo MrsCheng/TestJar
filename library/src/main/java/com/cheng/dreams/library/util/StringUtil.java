@@ -10,7 +10,7 @@ import java.text.DecimalFormat;
 
 /**
  * CreateTime: 2016-04-13上午11:03
- * Author: wjkjinke00@126.com
+ * Author: Cheng
  * Description:
  */
 public class StringUtil {
