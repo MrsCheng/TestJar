@@ -8,18 +8,35 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
 /**
- * CreateTime: 2016-03-10上午10:45
- * Author: Cheng
- * Description:
+ * Created by Cheng on 2017/2/20.
+ * ━━━━━━神兽出没━━━━━━
+ * 　　　┏┓　　　┏┓
+ * 　　┏┛┻━━━┛┻┓
+ * 　　┃　　　　　　　┃
+ * 　　┃　　　━　　　┃
+ * 　　┃　┳┛　┗┳　┃
+ * 　　┃　　　　　　　┃
+ * 　　┃　　　┻　　　┃
+ * 　　┃　　　　　　　┃
+ * 　　┗━┓　　　┏━┛Code is far away from bug with the animal protecting
+ * 　　　　┃　　　┃    神兽保佑,代码无bug
+ * 　　　　┃　　　┃
+ * 　　　　┃　　　┗━━━┓
+ * 　　　　┃　　　　　　　┣┓
+ * 　　　　┃　　　　　　　┏┛
+ * 　　　　┗┓┓┏━┳┓┏┛
+ * 　　　　　┃┫┫　┃┫┫
+ * 　　　　　┗┻┛　┗┻┛
+ * <p>
+ * ━━━━━━感觉萌萌哒━━━━━━
  */
-public class NetUtil {
-    private NetUtil() {
+public class NetUtils {
+    private NetUtils() {
         throw new UnsupportedOperationException("cannot be instantiated");
     }
 
     /**
      * 判断网络是否连接
-     *
      * @param context
      * @return
      */
