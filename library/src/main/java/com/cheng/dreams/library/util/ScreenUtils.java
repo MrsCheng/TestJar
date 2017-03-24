@@ -105,7 +105,6 @@ public class ScreenUtils {
         bp = Bitmap.createBitmap(bmp, 0, 0, width, height);
         view.destroyDrawingCache();
         return bp;
-
     }
 
     /**
@@ -130,7 +129,6 @@ public class ScreenUtils {
                 - statusBarHeight);
         view.destroyDrawingCache();
         return bp;
-
     }
 
 }
