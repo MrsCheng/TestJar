@@ -32,3 +32,21 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
 }
+
+def SDK_BASENAME = "TestJar";
+def SDK_VERSION = "_V2.1";
+def sdkDestinationPath = "build";
+def zipFile = file('build/intermediates/bundles/release/classes.jar')
+
+task deleteBuild(type: Delete) {
+    delete sdkDestinationPath + SDK_BASENAME + SDK_VERSION + ".jar"
+}
+
+task makeJar(type: Jar) {
+    from zipTree(zipFile)
+    from fileTree(dir: 'src/main',includes: ['assets/**'])
+    baseName = SDK_BASENAME + SDK_VERSION
+    destinationDir = file(sdkDestinationPath)
+}
+
+makeJar.dependsOn(deleteBuild, build)
