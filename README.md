@@ -14,3 +14,5 @@ Step 2. Add the dependency
 	dependencies {
 	         compile 'com.github.MrsCheng:TestJar:2.1'
 	}
+
+Jar下载地址为：https://github.com/MrsCheng/TestJar/releases/download/2.1/TestJar_V2.1.jar
