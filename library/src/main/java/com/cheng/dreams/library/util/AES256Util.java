@@ -32,7 +32,7 @@ public class AES256Util {
 
 	static {
 // TODO: 2017/2/8 替换成需要的key
-		KEY = "2323131313913823";
+		KEY = "1111111111";
 //		if (StringUtils.isNotBlank(k)) {
 //			KEY = k;
 //		} else {
