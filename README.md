@@ -1,3 +1,5 @@
+提供一些工具类的集合 来源自网络
+
 Step 1. Add it in your root build.gradle at the end of repositories:
 	
 	allprojects {
